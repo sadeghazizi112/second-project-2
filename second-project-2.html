@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Second Independent Project 2</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>What sort of job do you want?</h1>
+
+      <form class='form-group' id="infoinput">
+        <div class= "question1">
+          <label>What sort of job would you like to do?</label>
+          <select id= "whatsortofjob">
+            <option>Outdoors</option>
+            <option>Indoors</option>
+          </select>
+          <p class= 'q1next'>Next</p>
+        </div>
+        <div class= "question2">
+          <label>What sort of job would you like to do?</label>
+          <select id= "teamornot">
+            <option>I would like to work in a team.</option>
+            <option>I would like to work by myself.</option>
+          </select>
+          <p class= 'q2next'>Next</p>
+        </div>
+        <div class= "question3">
+          <label>Would you like to work part-time or full-time?</label>
+          <select id= "time">
+            <option>I would like to work part-time.</option>
+            <option>I would like to work full-time.</option>
+          </select>
+          <p class= 'q3next'>Next</p>
+        </div>
+
+
+        <div class="results">
+            <div id='resultdata'>
+              <p>Here are your results!</p>
+            </div>
+
+
+        <button type="submit" class="btn submitform">Results</button>
+        </form>
+
+      </div>
+
+      <div class="output">
+        <ul>
+          <li class= "java">Java: </li>
+          <li class= "ruby">Ruby: </li>
+          <li class= "css">CSS: </li>
+          <li class= "csharp">Csharp: </li>
+        </ul>
+      </div>
+    </div>
+    </body>
+  </html>
