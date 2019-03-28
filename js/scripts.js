@@ -73,5 +73,6 @@ $('.output').show();
   $(".ruby").append(ruby);
   $(".csharp").append(csharp);
 
+$(".submitform").hide();
 });
 });
